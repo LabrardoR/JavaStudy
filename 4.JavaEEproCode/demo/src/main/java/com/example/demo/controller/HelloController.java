@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/hello")
 @RestController
 public class HelloController {
-    @RequestMapping(value = "/sayhi",method = RequestMethod.GET)
+    @RequestMapping(value = "/sayHi",method = RequestMethod.GET)
     public String sayHi(){
         return "hi,SpringBoot";
     }
 
-    @RequestMapping("/sayhello")
+    @RequestMapping("/sayHello")
     public String sayHello(){
         return "hello,SpringBoot";
     }
