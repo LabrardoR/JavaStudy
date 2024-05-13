@@ -2,11 +2,15 @@ package com.library.libararymanagementsystem.service;
 
 import com.library.libararymanagementsystem.dao.BookDao;
 import com.library.libararymanagementsystem.model.BookInfo;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+@Component
 public class BookService {
-    private final BookDao bookDao = new BookDao();
+    @Autowired
+    private BookDao bookDao;
     public List<BookInfo> getBookList(){
 
         // mock 表示虚拟的,假数据

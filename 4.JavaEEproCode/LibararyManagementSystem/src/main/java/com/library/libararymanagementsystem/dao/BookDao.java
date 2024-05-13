@@ -1,12 +1,14 @@
 package com.library.libararymanagementsystem.dao;
 
 import com.library.libararymanagementsystem.model.BookInfo;
+import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+@Component
 public class BookDao {
     public List<BookInfo> mockData(){
         // 对于已知的数据量,或者大概知道这个集合的数据量时,指定初始化容量
