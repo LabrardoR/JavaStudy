@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.head.mybatis-demo.mapper.UserInfoXMLMapper">
+
+    <select id="selectAll" resultType="com.head.mybatisdemo.model.UserInfo">
+        select * from userinfo
+    </select>
+
+
+    <insert id="insert">
+        insert into userinfo (username,'password',age,gender,phone)
+        values (#{username},#{password},#{age},#{gender},#{phone})
+    </insert>
+
+
+
+
+</mapper>

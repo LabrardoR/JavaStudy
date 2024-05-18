@@ -1,0 +1,35 @@
+
+#server:
+  # value 前面必须要有空格
+  # port: 9092
+spring: # 必须要换行
+  datasource:
+    # 必须按空格, 不可以是 Tab
+    url: jdbc:mysql:/127.0.0.1:3306/testdb?characterEncoding=utf8&&useSSL=false
+    username: root
+    password: 932384
+
+demo:
+  key1: hello,yml
+  key2: key2
+  key3: key3
+
+dbtypes:
+  name:
+    - mysql
+    - sqlserver
+    - db2
+
+logging:
+  level:
+    root: TRACE
+    com:
+      head:
+        demo: TRACE
+  file:
+    name: logger/log
+  # 日志分隔符
+  logback:
+    rollingpolicy:
+      max-file-size: 1KB
+      file-name-pattern: ${LOG_FILE}.%d{yyyy-MM-dd}.%i.txt

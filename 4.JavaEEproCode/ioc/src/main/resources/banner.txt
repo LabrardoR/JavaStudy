@@ -1,0 +1,17 @@
+          JJJJJJJJJJJ
+          J:::::::::J
+          J:::::::::J
+          JJ:::::::JJ
+            J:::::J  aaaaaaaaaaaaavvvvvvv           vvvvvvvaaaaaaaaaaaaa
+            J:::::J  a::::::::::::av:::::v         v:::::v a::::::::::::a
+            J:::::J  aaaaaaaaa:::::av:::::v       v:::::v  aaaaaaaaa:::::a
+            J:::::j           a::::a v:::::v     v:::::v            a::::a
+            J:::::J    aaaaaaa:::::a  v:::::v   v:::::v      aaaaaaa:::::a
+JJJJJJJ     J:::::J  aa::::::::::::a   v:::::v v:::::v     aa::::::::::::a
+J:::::J     J:::::J a::::aaaa::::::a    v:::::v:::::v     a::::aaaa::::::a
+J::::::J   J::::::Ja::::a    a:::::a     v:::::::::v     a::::a    a:::::a
+J:::::::JJJ:::::::Ja::::a    a:::::a      v:::::::v      a::::a    a:::::a
+ JJ:::::::::::::JJ a:::::aaaa::::::a       v:::::v       a:::::aaaa::::::a
+   JJ:::::::::JJ    a::::::::::aa:::a       v:::v         a::::::::::aa:::a
+     JJJJJJJJJ       aaaaaaaaaa  aaaa        vvv           aaaaaaaaaa  aaaa
+
