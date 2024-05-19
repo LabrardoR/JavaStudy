@@ -1,9 +1,8 @@
 package com.example.demo.controller;
 
 
-import com.example.demo.Person;
+import com.example.demo.model.Person;
 import jakarta.servlet.http.Cookie;
-import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;
 import org.springframework.web.bind.annotation.*;
