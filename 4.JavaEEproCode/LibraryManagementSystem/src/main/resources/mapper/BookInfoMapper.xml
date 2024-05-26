@@ -21,7 +21,7 @@
                     <if test="publish!=null">
                         publish = #{publish},
                     </if>
-                    <if test="publish!=null">
+                    <if test="status!=null">
                         status = #{status}
                     </if>
 
